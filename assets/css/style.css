@@ -11,6 +11,8 @@ body{
 :root{
     --bce-header: #add8e6;
     --bce-header-content: #daa520;
+    --bce-jbt: #00008b;
+    --bce-jbc: #ee82ee;
 }
 
 .debug{
@@ -25,8 +27,12 @@ a{
     text-decoration: none;
 }
 .container{
-    width: 80%;
-    margin: auto;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 header{
     min-height: 70px;
@@ -43,4 +49,17 @@ header{
     align-items: center;
     margin: 1rem 1rem;
     
+}
+
+.jumbo-bg{
+    background-color: var(--bce-jbt);
+    min-height: 500px;
+    display: flex;
+}
+
+.jumbotron{
+    background-color: var(--bce-jbc);
+    height: 80%;
+    width: 80%;
+
 }
