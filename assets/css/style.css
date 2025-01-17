@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%; 
+}
+
+:root{
+    --bce-header: #add8e6;
+    --bce-header-content: #daa520;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+ul,li{
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    min-height: 70px;
+    display: flex;
+    background-color: var(--bce-header);
+    justify-content: center;
+}
+
+.header-content{
+    background-color: var(--bce-header-content);
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+    
+}
