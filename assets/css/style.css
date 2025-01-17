@@ -42,10 +42,28 @@ ul,li{
 a{
     text-decoration: none;
 }
+
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.h-80{
+    height: 80%;
+}
+
+
 .mr_ml_auto{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* utilities */
+
+
 .container{
     width: 70%;
     display: flex;
@@ -82,7 +100,7 @@ header{
 
 }
 
-.invite_only{
+.icf-section{
     min-height: 500px;
     display: flex;
 }
@@ -90,12 +108,8 @@ header{
 
 .primary-db{
     background-color: var(--bce-primary);
-    width: 60%;
-    height: 80%;
 }
 
 .primary-variant-db{
     background-color: var(--bce-primary-variant);
-    width: 40%;
-    height: 80%;
 }
